@@ -1,0 +1,55 @@
+.navbar{
+    position: fixed;
+    height: 50px;
+    overflow: hidden;
+    top: 0;
+    display: flex;
+    align-items: center;
+    background: #339CC7;
+    width:100%;
+}
+
+.logo h4{
+    margin-top: 8px;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 50px;
+}
+
+.menu{
+    float: right;
+    font-family:'Raleway', sans-serif; 
+}
+
+.menu a{
+    margin-left: 20px;
+    
+}
+
+.menu a:hover{
+    color: #002278;
+}
+
+.search-box{
+    position: relative;
+    background: beige;
+    border-radius: 50px;
+    width: 300px;
+    margin-left: 500px;
+}
+
+.search-txt{
+    background:none;
+    outline: none;
+    border: none;
+    float: left;
+    padding: 0;
+    margin-left: 15px;
+    color:rgb(97, 95, 95);
+    width: 260px;
+}
+
+.search-btn{
+    color: #339CC7;
+    border-radius: 50%;
+}

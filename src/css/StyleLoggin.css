@@ -1,0 +1,147 @@
+@charset "UTF-8";
+
+/*font-family: 'Raleway', sans-serif;*/
+body, html{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family:'Raleway', sans-serif; 
+}
+
+a, a:hover{
+    text-decoration: none;
+}
+
+.container-fluid{
+  padding: 0;
+}
+
+/* header  #1E6BE8  #21B0FF*/
+.header{
+    background-color:#339CC7;
+    height: 70px;
+    line-height: 70px;
+}
+.logo{
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    float: left;
+}
+
+.menu{
+    float: right;
+}
+
+.menu a{
+    color: white;
+    margin-right: 20px;
+}
+
+.menu a:hover{
+    color:#002278;
+}
+
+/* banniere*/
+
+.banner{
+    width: 100%;
+    max-width: 100%;
+}
+
+.ban{
+    width: 100%;
+    max-width: 100%;
+    position: relative;
+}
+
+.ban img{
+    padding-top: 50px;
+    width: 100%;
+    max-width: 100%;
+}
+.inner-banner{
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    right: 10%;
+    text-align: right;
+}
+
+.inner-banner h1{
+    position: absolute;
+    right: 10%;
+    bottom: 50%;
+    color: #ffffff;
+    text-shadow: 1px 1px 20px #000000;
+
+}
+
+/* about margin-top: auto;
+    margin-bottom: auto;*/
+
+.login-card{
+    position: absolute;
+    right: 1%;
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 400px;
+    width: 450px;
+    background-color: rgba(0,0,0,0.5) !important;
+}
+
+.login-card-header{
+    position: absolute;
+    right: 10%;
+    width: 88%;
+    text-align: left;
+}
+
+.login-card-header h3{
+    color: white;
+    }
+
+.login-card-body{
+    margin-top: 50px;
+    }    
+
+input:focus{
+    outline: 0 0 0 0  !important;
+    box-shadow: 0 0 0 0 !important;
+    
+}
+
+.login_btn{ /*jaune #FFC312*/
+    color: #ffffff;
+    background-color: #1E6BE8;
+    width: 100px;
+}
+
+.login_btn:hover{
+    color: black;
+    background-color: white;
+}
+
+.remember{
+    color: white;
+}
+
+.remember input{
+width: 20px;
+height: 20px;
+margin-left: 15px;
+margin-right: 5px;
+}
+
+.links{
+    margin-left: 50px;
+    color: white;
+}
+
+.links a{
+    margin-left: 4px;
+    bottom: 10%;
+}

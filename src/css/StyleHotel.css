@@ -1,0 +1,21 @@
+#showcase_hotel{
+    min-height: 300px;
+    background: -webkit-linear-gradient( rgba(44, 44, 44, 0.699) 100%,transparent 100%), url(../img/xhotel_acta_bcn40_doble_sup_02.jpg.pagespeed.ic.BYst6ggCfy.jpg);
+    background-position: 30%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: beige;
+    box-shadow: 0 8px 8px 0 rgba(44, 43, 43, 0.384), 0 6px 20px 0 rgba(63, 62, 62, 0.19);
+}
+
+#showcase_hotel h1{
+   margin-top: 100px;
+   font-size: 55px;
+   margin-bottom: 10px;
+}
+
+#showcase_hotel p{
+  font-size: 15px;
+  margin-bottom: 0;
+}

@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+/*font-family: 'Raleway', sans-serif;*/
+body, html{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family:'Raleway', sans-serif; 
+}
+a, a:hover{
+    text-decoration: none;
+}
+
+
+/* slider */
+#slider{
+    margin-top: 50px;
+    width: 100%;
+}
+.carousel-caption{
+    top:50%;
+    transform: translateY(-50%);
+    bottom: initial!important;
+}
+.carousel-caption h5{
+    color: #fff;
+    font-size: 100px;
+    text-shadow: 50px 50px 20px #000000;
+}
+/* fin slider*/ 
+/*   about   */
+#about{
+    background-color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #555;
+}
+.about-content{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.col-md-6 h5{
+    margin-left: 150px;
+    font-size: 15px;
+}
+/*   fin about  */
+
+/* services */
+#services{
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(wahran1.jpg);
+}
+#services h1{
+    text-align: center;
+    color: #efefef;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+#services h1::after{
+    content: '';
+    background: #efefef;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
